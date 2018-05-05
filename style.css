@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Hello I am a hex color code! */
+    background: #CCC;
+}
+.content {
+    background: #FFF;
+    /* Give myself a max width */
+    max-width: 650px;
+    /* Center myself! */
+    margin-left: auto;
+    margin-right: auto;
+    /* Add some space "padding" on the side */
+    padding: 20px;
+}
+#todos {
+    list-style: none;
+}
+#todos li {
+    padding: 10px;
+    border-bottom: 1px solid #CCC;
+}
+#todos li .delete {
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+    float: right;
+}
